@@ -3,4 +3,4 @@ project(prog_ava)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(prog_ava ayudantia1_ej2.cpp)
+add_executable(prog_ava ayudantia1_ej1.cpp)
