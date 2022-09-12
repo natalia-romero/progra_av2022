@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/natalia/CLionProjects/programacion/ayudantias/prog_a
 
 build cmake_object_order_depends_target_prog_ava: phony || CMakeFiles/prog_ava.dir
 
-build CMakeFiles/prog_ava.dir/ayudantia1_ej1.cpp.o: CXX_COMPILER__prog_ava_Debug /home/natalia/CLionProjects/programacion/ayudantias/prog_ava/ayudantia1_ej1.cpp || cmake_object_order_depends_target_prog_ava
-  DEP_FILE = CMakeFiles/prog_ava.dir/ayudantia1_ej1.cpp.o.d
+build CMakeFiles/prog_ava.dir/ayudantia3_ej2.cpp.o: CXX_COMPILER__prog_ava_Debug /home/natalia/CLionProjects/programacion/ayudantias/prog_ava/ayudantia3_ej2.cpp || cmake_object_order_depends_target_prog_ava
+  DEP_FILE = CMakeFiles/prog_ava.dir/ayudantia3_ej2.cpp.o.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/prog_ava.dir
   OBJECT_FILE_DIR = CMakeFiles/prog_ava.dir
@@ -63,7 +63,7 @@ build CMakeFiles/prog_ava.dir/ayudantia1_ej1.cpp.o: CXX_COMPILER__prog_ava_Debug
 #############################################
 # Link the executable prog_ava
 
-build prog_ava: CXX_EXECUTABLE_LINKER__prog_ava_Debug CMakeFiles/prog_ava.dir/ayudantia1_ej1.cpp.o
+build prog_ava: CXX_EXECUTABLE_LINKER__prog_ava_Debug CMakeFiles/prog_ava.dir/ayudantia3_ej2.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/prog_ava.dir
   POST_BUILD = :
